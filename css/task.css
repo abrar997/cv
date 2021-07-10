@@ -1,0 +1,105 @@
+ body {background-color: rgba(223, 211, 211, 0.637)!important;
+  height: 700px;
+
+} 
+
+
+.task{
+
+  background-color: rgb(19, 18, 18)!important;
+  height: 780px;
+  padding-top: 100px;
+  margin-left: 100px;
+  width: 70%;
+  margin-top: 130px;
+  color: rgba(107, 103, 51, 0.753);
+  font-size: 28px;}
+
+.task>div {display: flex;
+flex-flow: row wrap;
+}
+
+#timeover{height: 120px;
+  
+}
+
+
+/* ----------------media query-------------------- */
+ @media screen and (min-width:0px) and (max-width:575px) {
+body{overflow-x: hidden;}
+  .task{
+
+  height: 650px;
+  margin-top: 130px;
+  display: flex;
+  flex-flow: column;
+width: 100%;
+position: relative;
+font-size: 18px;
+  }
+ .task .oclock{position: absolute;
+top: 500px;
+height: 80px;
+right: 4px;
+}
+ }
+
+ @media screen and (min-width:575px) and (max-width:768px) {
+
+body{overflow-x: hidden;}
+
+  .task{
+  height: 750px;
+  padding-top: 100px;
+  margin-top: 130px;
+  display: flex;
+  flex-flow: column;
+width: 100%;
+font-size: 20px;
+
+  }
+.task .oclock{position: absolute;
+top: 700px;
+height: 80px;
+right: 1px;
+}
+
+}
+
+ 
+ @media screen and (min-width:768px) and (max-width:992px) {
+
+  
+body{overflow-x: hidden;}
+
+  .task{
+  height: 750px;
+  padding-top: 100px;
+  margin-top: 130px;
+  display: flex;
+  flex-flow: column;
+width: 100%;
+font-size: 20px;
+
+  }
+.task .oclock{position: absolute;
+top: 700px;
+height: 80px;
+right: 56px;
+}
+
+}
+ @media screen and (min-width:992px) and (max-width:1200px) {
+body{overflow-x: hidden;}
+
+  .task{
+  height: 750px;
+  padding-top: 100px;
+  margin-top: 130px;
+  display: flex;
+  flex-flow: column;
+width: 100%;
+font-size: 20px;
+
+  }
+}
